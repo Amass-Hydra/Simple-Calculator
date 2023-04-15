@@ -3,6 +3,7 @@ from tkinter import *
 root = Tk()
 
 root.title("Simple Calculator by Hamdan")
+root.iconbitmap("C:/Users/HP/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/python 3.11.calculator.ico")
 
 e = Entry(root, width=35, borderwidth=5, bg= "black", fg = "white")
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
